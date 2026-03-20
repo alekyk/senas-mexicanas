@@ -13,7 +13,7 @@ los dedos. Esos numeros son los "landmarks" (puntos clave).
 
 === COMO SE USA? ===
 1. Abre la terminal
-2. Escribe: python data/collect_data.py
+2. Escribe: python3 data/collect_data.py
 3. Se abre la camara
 4. Presiona la tecla de la sena que quieres grabar (ej: 1 para Hola)
 5. Tienes 3 segundos para prepararte
