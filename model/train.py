@@ -272,7 +272,7 @@ def main():
     # reduce el learning rate a la mitad. Es como cuando estudias
     # y ya no avanzas, entonces lees mas despacio y con mas atencion.
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode='max', factor=0.5, patience=7, verbose=True
+        optimizer, mode='max', factor=0.5, patience=7
     )
 
     # CrossEntropyLoss: funcion que mide "que tan mal" le fue al modelo.
